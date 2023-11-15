@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: black;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+}
+.slider{
+    text-align: center;
+    margin: 40px 0;
+}
+.slider h1{
+    font-size: 50px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #ddd;
+    margin: 40px 0;
+}
+.slider p{
+    color: #444;
+    width: 50%;
+    margin: 10px auto;
+    font-weight: bold;
+}
+.slider img{
+    border-radius: 20px;
+}
+.slider .button{
+    background-color: green;
+    padding: 10px 40px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.slider .button:hover{
+    background-color: rgb(88, 180, 88);
+}
+footer{
+    background: black;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}
+footer a{
+    color: green;
+}
